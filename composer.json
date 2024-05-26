@@ -1,0 +1,19 @@
+{
+  "name": "hans/php-composer",
+  "description": "belajar php composer",
+  "type": "project",
+  "authors": [
+    {
+      "name": "farhan wahyudi",
+      "email": "farhanwahyudi875@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hans\\": "src/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "3.6.0"
+  }
+}
